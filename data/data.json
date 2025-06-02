@@ -1,0 +1,1473 @@
+[
+  {
+    "name": "Ian Heinisch",
+    "nickname": "The Hurricane",
+    "tags": ["Middleweight Division", "Active"],
+    "division": "Middleweight Division",
+    "win_lose": "14-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "Wins by Submission", "num": "2" },
+      { "stat": "Wins by Decision", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-07/HEINISCH_IAN_L_07-24.png?itok=nueR8SKu"
+  },
+  {
+    "name": "Montana De La Rosa",
+    "nickname": "",
+    "tags": ["Women's Flyweight Division", "Not Fighting"],
+    "division": "Women's Flyweight Division",
+    "win_lose": "13-9-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "1" },
+      { "stat": "Wins by Submission", "num": "8" },
+      { "stat": "First Round Finishes", "num": "2" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-02/DE_LA_ROSA_MONTANA_L_03-01.png?itok=Hunwo5VQ"
+  },
+  {
+    "name": "Tagir Ulanbekov",
+    "nickname": "",
+    "tags": ["#10 Flyweight Division", "Active"],
+    "division": "Flyweight Division",
+    "win_lose": "16-2-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "1" },
+      { "stat": "Wins by Submission", "num": "7" },
+      { "stat": "First Round Finishes", "num": "3" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/7/ULANBEKOV_TAGIR_L_01-18.png?itok=RfKG_X9T"
+  },
+  {
+    "name": "Connor Matthews",
+    "nickname": "The Controller",
+    "tags": ["Featherweight Division", "Active"],
+    "division": "Featherweight Division",
+    "win_lose": "7-4-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "1" },
+      { "stat": "Wins by Submission", "num": "5" },
+      { "stat": "First Round Finishes", "num": "6" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-02/MATTHEWS_CONNOR_L_02-15.png?itok=6zI8b3J0"
+  },
+  {
+    "name": "John Moraga",
+    "nickname": "Chicano",
+    "tags": ["Flyweight Division", "Not Fighting"],
+    "division": "Flyweight Division",
+    "win_lose": "19-7-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Submission", "num": "8" },
+      { "stat": "Wins by Decision", "num": "8" },
+      { "stat": "First Round Finishes", "num": "1" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/68298/profile-galery/fullbodyleft-picture/John-Moraga_285939_LeftFullBodyImage.png?VersionId=pmDi6ZCx2E.yBjCqaGsZcoMlbUWjNrE4&itok=SdAjY0_D"
+  },
+  {
+    "name": "Rolando Delgado",
+    "nickname": "The Crazy Cuban",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "8-5-1 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Igor Pokrajac",
+    "nickname": "The Duke",
+    "tags": ["Light Heavyweight Division", "Not Fighting"],
+    "division": "Light Heavyweight Division",
+    "win_lose": "25-13-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/83f06aff-a7ee-4eff-9497-636d86f698a5%252FIgor-Pokrajac_1098_LeftFullBodyImage.png?itok=WKn0MPUC"
+  },
+  {
+    "name": "Damian Stasiak",
+    "nickname": "Webster",
+    "tags": ["Bantamweight Division", "Not Fighting"],
+    "division": "Bantamweight Division",
+    "win_lose": "10-6-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/67702/profile-galery/fullbodyleft-picture/damian-stasiak_527883_LeftFullBodyImage.png?VersionId=LrPW68k.uWxiFY3AGq6SiUzlK1v5bLTQ&itok=rJOr1qve"
+  },
+  {
+    "name": "Andy Wang",
+    "nickname": "The Yellow Peril",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "8-6-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Aleksa Camur",
+    "nickname": "",
+    "tags": ["Light Heavyweight Division", "Active"],
+    "division": "Light Heavyweight Division",
+    "win_lose": "6-3-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "First Round Finishes", "num": "3" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-06/71497%252Fprofile-galery%252Ffullbodyleft-picture%252FCAMUR_ALEKSA_L_06-19.png?itok=VMvEKVg0"
+  },
+  {
+    "name": "Andre Muniz",
+    "nickname": "Sergipano",
+    "tags": ["Middleweight Division", "Active"],
+    "division": "Middleweight Division",
+    "win_lose": "24-7-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "Wins by Submission", "num": "15" },
+      { "stat": "First Round Finishes", "num": "15" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-04/MUNIZ_ANDRE_L_12-09.png?itok=lNhMeOcy"
+  },
+  {
+    "name": "Daniel Spohn",
+    "nickname": "Dragon",
+    "tags": ["Light Heavyweight Division", "Active"],
+    "division": "Light Heavyweight Division",
+    "win_lose": "16-5-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/4a43e9ec-df95-45ef-b54e-da405508df01%252FDaniel-Spohn_631537_LeftFullBodyImage.png?itok=MLlXeVey"
+  },
+  {
+    "name": "Walt Harris",
+    "nickname": "The Big Ticket",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "13-10-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "13" },
+      { "stat": "First Round Finishes", "num": "11" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-06/69494%252Fprofile-galery%252Ffullbodyleft-picture%252FHARRIS_WALT_L_06-05.png?itok=a8niKBhw"
+  },
+  {
+    "name": "Leonardo Santos",
+    "nickname": "",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "18-7-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "3" },
+      { "stat": "Wins by Submission", "num": "8" },
+      { "stat": "First Round Finishes", "num": "11" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/893d4843-0353-42db-a9d2-3207f90303fe%252FSANTOS_LEONARDO_L_12-04.png?itok=sltNarjY"
+  },
+  {
+    "name": "Bob Gilstrap",
+    "nickname": "",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "0-0-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Paul Georgieff",
+    "nickname": "",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "7-2-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Andrei Arlovski",
+    "nickname": "The Pit Bull",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "34-24-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "17" },
+      { "stat": "Wins by Submission", "num": "3" },
+      { "stat": "First Round Finishes", "num": "13" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-06/ARLOVSKI_ANDREI_L_06-29.png?itok=lskZeRsK"
+  },
+  {
+    "name": "Don Madge",
+    "nickname": "Magic Man",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "9-3-1 (W-L-D)",
+    "stats": [
+      { "stat": "Fight Win Streak", "num": "7" },
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "Wins by Submission", "num": "3" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/67842/profile-galery/fullbodyleft-picture/MADGE_DON_L.png?VersionId=icbKWlziX2DDH_20aQceo_D1dLanP1Y5&itok=ms_R10Os"
+  },
+  {
+    "name": "Nolan Ticman",
+    "nickname": "",
+    "tags": ["Flyweight Division", "Not Fighting"],
+    "division": "Flyweight Division",
+    "win_lose": "4-3-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/183adf35-d982-4b4b-aee8-a71f8622cbd1%252Fnolan-ticman_497309_LeftFullBodyImage.png?itok=Ezb8Y90U"
+  },
+  {
+    "name": "Paige VanZant",
+    "nickname": "12 Gauge",
+    "tags": ["Women's Flyweight Division", "Not Fighting"],
+    "division": "Women's Flyweight Division",
+    "win_lose": "8-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "2" },
+      { "stat": "Wins by Submission", "num": "3" },
+      { "stat": "Wins by Decision", "num": "3" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2019-01/VANZANT_PAIGE_L.png?VersionId=rDvHkKI517fjEl4bZXcbza533TPWxUDr&itok=J3m56DpB"
+  },
+  {
+    "name": "Muslim Salikhov",
+    "nickname": "King of Kung Fu",
+    "tags": ["Welterweight Division", "Active"],
+    "division": "Welterweight Division",
+    "win_lose": "21-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "14" },
+      { "stat": "Wins by Submission", "num": "2" },
+      { "stat": "First Round Finishes", "num": "14" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/SALIKHOV_MUSLIM_L_07-13.png?itok=Du_Ukhhl"
+  },
+  {
+    "name": "Sergei Pavlovich",
+    "nickname": "",
+    "tags": ["#4 Heavyweight Division", "Active"],
+    "division": "Heavyweight Division",
+    "win_lose": "19-3-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "15" },
+      { "stat": "First Round Finishes", "num": "15" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/PAVLOVICH_SERGEI_L_02-01.png?itok=7fYf_bcq"
+  },
+  {
+    "name": "Ruslan Magomedov",
+    "nickname": "Leopard",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "14-1-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/69164/profile-galery/fullbodyleft-picture/Ruslan-Magomedov_475290_LeftFullBodyImage.png?VersionId=YJD7o1qdaOu4ZsefPESIaOHMHWIkbQT7&itok=PPvtMGWj"
+  },
+  {
+    "name": "Nassourdine Imavov",
+    "nickname": "The Sniper",
+    "tags": ["#1 Middleweight Division", "Active"],
+    "division": "Middleweight Division",
+    "win_lose": "16-4-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "7" },
+      { "stat": "Wins by Submission", "num": "4" },
+      { "stat": "First Round Finishes", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/5/IMAVOV_NASSOURDINE_L_09-28.png?itok=FySV-4op"
+  },
+  {
+    "name": "Andy Enz",
+    "nickname": "Lionheart",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "8-3-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-08/Andy-Enz_466151_LeftFullBodyImage.png?itok=_OG_GK_6"
+  },
+  {
+    "name": "Jesse Ronson",
+    "nickname": "The Body Snatcher",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "21-12-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "10" },
+      { "stat": "Wins by Submission", "num": "7" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-06/RONSON_JESSE_L_04-16.png?itok=E4_uKNiW"
+  },
+  {
+    "name": "Randa Markos",
+    "nickname": "Quiet Storm",
+    "tags": ["Women's Strawweight Division", "Not Fighting"],
+    "division": "Women's Strawweight Division",
+    "win_lose": "11-12-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Submission", "num": "4" },
+      { "stat": "Wins by Decision", "num": "23" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-04/69044%252Fprofile-galery%252Ffullbodyleft-picture%252FMARKOS_RANDA_L_05-01.png?itok=tjMTPV8f"
+  },
+  {
+    "name": "Andre Fili",
+    "nickname": "Touchy",
+    "tags": ["Featherweight Division", "Active"],
+    "division": "Featherweight Division",
+    "win_lose": "24-12-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "10" },
+      { "stat": "Wins by Submission", "num": "3" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-02/FILI_ANDRE_L_02-22.png?itok=tCGkEo7s"
+  },
+  {
+    "name": "Adam Wieczorek",
+    "nickname": "Siwy",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "10-2-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "3" },
+      { "stat": "Wins by Submission", "num": "6" },
+      { "stat": "Wins by Decision", "num": "1" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/67147/profile-galery/fullbodyleft-picture/Adam-Wieczorek_629280_LeftFullBodyImage.png?VersionId=97mOpL1Tn54FImsVO59lTWaPWiB.8t7_&itok=L5l_2s09"
+  },
+  {
+    "name": "Pannie Kianzad",
+    "nickname": "Banzai",
+    "tags": ["Women's Bantamweight Division", "Not Fighting"],
+    "division": "Women's Bantamweight Division",
+    "win_lose": "17-9-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "3" },
+      { "stat": "First Round Finishes", "num": "1" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-08/KIANZAD_PANNIE_L_08-10.png?itok=-2NYfFwx"
+  },
+  {
+    "name": "Pat Sabatini",
+    "nickname": "",
+    "tags": ["Featherweight Division", "Active"],
+    "division": "Featherweight Division",
+    "win_lose": "20-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "2" },
+      { "stat": "Wins by Submission", "num": "12" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-04/SABATINI_PAT_L_04-05.png?itok=-2iacMbF"
+  },
+  {
+    "name": "Yan Xiaonan",
+    "nickname": "",
+    "tags": ["#3 Women's Strawweight Division", "#13 PFP", "Active"],
+    "division": "Women's Strawweight Division",
+    "win_lose": "19-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "8" },
+      { "stat": "Wins by Submission", "num": "1" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-04/XIAONAN_YAN_L_04-12.png?itok=uhRpBJX_"
+  },
+  {
+    "name": "Ricky Glenn",
+    "nickname": "The Gladiator",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "22-9-2 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "13" },
+      { "stat": "Wins by Submission", "num": "3" },
+      { "stat": "First Round Finishes", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2023-04/GLENN_RICKY_L_04-22.png?itok=reUAGXjA"
+  },
+  {
+    "name": "Herbert Burns",
+    "nickname": "The Blaze",
+    "tags": ["Featherweight Division", "Not Fighting"],
+    "division": "Featherweight Division",
+    "win_lose": "11-6-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "1" },
+      { "stat": "Wins by Submission", "num": "8" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-08/BURNS_HERBERT_L_3-30.png?itok=lxgBNh0r"
+  },
+  {
+    "name": "Eric Shelton",
+    "nickname": "Showtime",
+    "tags": ["Flyweight Division", "Not Fighting"],
+    "division": "Flyweight Division",
+    "win_lose": "12-6-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "2" },
+      { "stat": "Wins by Submission", "num": "5" },
+      { "stat": "Wins by Decision", "num": "5" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/67908/profile-galery/fullbodyleft-picture/SHELTON_ERIC_L.png?itok=ZAvDe5rA"
+  },
+  {
+    "name": "Dante Rivera",
+    "nickname": "",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "10-3-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Diego Sanchez",
+    "nickname": "Nightmare",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "32-13-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "10" },
+      { "stat": "Wins by Submission", "num": "6" },
+      { "stat": "Wins by Decision", "num": "13" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2020-09/SANCHEZ_DIEGO_L_02-15.png?VersionId=wQhmItCaHls0WX8jW8XYH4YtnuxmvKE0&itok=vpiTX50r"
+  },
+  {
+    "name": "Roger Zapata",
+    "nickname": "Viva",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "4-3-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/d9e980fe-60bb-4090-8a43-74ab7dd28f5c%252Froger-zapata_480365_LeftFullBodyImage.png?itok=VQiWZwoG"
+  },
+  {
+    "name": "Alexander Volkanovski",
+    "nickname": "The Great",
+    "tags": ["Featherweight Division", "#7 PFP", "Active", "Title Holder"],
+    "division": "Featherweight Division",
+    "win_lose": "27-4-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "13" },
+      { "stat": "Wins by Submission", "num": "3" },
+      { "stat": "First Round Finishes", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-02/VOLKANOVSKI_ALEXANDER_L_BELT_02-17.png?itok=Yg4dyrTx"
+  },
+  {
+    "name": "Mark Weir",
+    "nickname": "",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "17-2-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Klaudia Syguła",
+    "nickname": "",
+    "tags": ["Women's Bantamweight Division", "Active"],
+    "division": "Women's Bantamweight Division",
+    "win_lose": "6-2-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "2" },
+      { "stat": "Wins by Submission", "num": "1" },
+      { "stat": "First Round Finishes", "num": "2" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/SYGULA_KLAUDIA_R_11-09.png?itok=XQyc9Hor"
+  },
+  {
+    "name": "Yasuhiro Urushitani",
+    "nickname": "",
+    "tags": ["Flyweight Division", "Not Fighting"],
+    "division": "Flyweight Division",
+    "win_lose": "19-6-6 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Onassis Parungao",
+    "nickname": "",
+    "tags": ["Not Fighting"],
+    "division": "",
+    "win_lose": "0-0-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Anthony Pettis",
+    "nickname": "Showtime",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "24-10-0 (W-L-D)",
+    "stats": [
+      { "stat": "Fight Win Streak", "num": "4" },
+      { "stat": "Wins by Knockout", "num": "11" },
+      { "stat": "Wins by Submission", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2019-08/PETTIS_ANTHONY_L_0.png?VersionId=1oy1Wmt9DLTlTc9prpWF6HliIZEh0Yj8&itok=c1CZ2zFy"
+  },
+  {
+    "name": "Ronda Rousey",
+    "nickname": "Rowdy",
+    "tags": ["Women's Bantamweight Division", "Retired"],
+    "division": "Women's Bantamweight Division",
+    "win_lose": "12-2-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/85973314-4705-4ef9-ab85-f2d4e16e35a1%252FRonda-Rousey_241883_LeftFullBodyImage.png?itok=3uo_ZMGo"
+  },
+  {
+    "name": "Jean Silva",
+    "nickname": "White Bear",
+    "tags": ["Not Fighting"],
+    "division": "",
+    "win_lose": "0-0-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "John Kolosci",
+    "nickname": "",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "8-5-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Elijah Smith",
+    "nickname": "Swift",
+    "tags": ["Bantamweight Division", "Active"],
+    "division": "Bantamweight Division",
+    "win_lose": "8-1-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "Wins by Submission", "num": "1" },
+      { "stat": "First Round Finishes", "num": "3" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/SMITH_ELIJAH_R.png?itok=dWV0Citn"
+  },
+  {
+    "name": "Michel Prazeres",
+    "nickname": "Tractor",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "26-4-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "2" },
+      { "stat": "Wins by Submission", "num": "10" },
+      { "stat": "Wins by Decision", "num": "14" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-07/PRAZERES_MICHEL_L_06-26.png?itok=_LPhrpoM"
+  },
+  {
+    "name": "Impa Kasanganay",
+    "nickname": "Tshilobo",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "9-2-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "1" },
+      { "stat": "Wins by Submission", "num": "2" },
+      { "stat": "Wins by Decision", "num": "6" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-04/71561%252Fprofile-galery%252Ffullbodyleft-picture%252FKASANGANAY_IMPA_L_04-10.png?itok=xuedxGAf"
+  },
+  {
+    "name": "John Gunderson",
+    "nickname": "Guns",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "23-8-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Steve Cantwell",
+    "nickname": "Robot",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "7-6-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Sean Woodson",
+    "nickname": "The Sniper",
+    "tags": ["Featherweight Division", "Active"],
+    "division": "Featherweight Division",
+    "win_lose": "13-2-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "Wins by Submission", "num": "1" },
+      { "stat": "First Round Finishes", "num": "4" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-12/WOODSON_SEAN_L_12-14.png?itok=i6H1Wr4Z"
+  },
+  {
+    "name": "Tim Hague",
+    "nickname": "The Thrashing Machine",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "12-5-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Billy Quarantillo",
+    "nickname": "",
+    "tags": ["Featherweight Division", "Active"],
+    "division": "Featherweight Division",
+    "win_lose": "18-7-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "8" },
+      { "stat": "Wins by Submission", "num": "5" },
+      { "stat": "First Round Finishes", "num": "3" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-12/QUARANTILLO_BILLY_L_03-23.png?itok=S22n3Vup"
+  },
+  {
+    "name": "Gerald Strebendt",
+    "nickname": "",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "7-3-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Mitch Clarke",
+    "nickname": "Danger Zone",
+    "tags": ["Lightweight Division", "Retired"],
+    "division": "Lightweight Division",
+    "win_lose": "11-5-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/68856/profile-galery/fullbodyleft-picture/Mitch-Clarke_226175_LeftFullBodyImage.png?VersionId=hOE5iyyZAvvzdfb6nFBRjK31r5f7xJN9&itok=mfEjIulq"
+  },
+  {
+    "name": "Daniel Lacerda",
+    "nickname": "Miojo",
+    "tags": ["Flyweight Division", "Active"],
+    "division": "Flyweight Division",
+    "win_lose": "11-6-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "Wins by Submission", "num": "6" },
+      { "stat": "First Round Finishes", "num": "10" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2023-04/LACERDA_DANIEL_L_03-25.png?itok=S8oG_yYO"
+  },
+  {
+    "name": "AJ Fletcher",
+    "nickname": "The Ghost",
+    "tags": ["Welterweight Division", "Active"],
+    "division": "Welterweight Division",
+    "win_lose": "10-3-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "Wins by Submission", "num": "4" },
+      { "stat": "First Round Finishes", "num": "6" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/cd405587-3f1f-404f-bce9-1d2713b05a6d%252FFLETCHER_AJ_L_03-12.png?itok=4lLv9v_M"
+  },
+  {
+    "name": "Joe Merritt",
+    "nickname": "Joey Slash",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "7-1-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/cce0f063-feb4-4956-b651-39edb77e1497%252Fjoe-merritt_536410_LeftFullBodyImage.png?itok=yW4WFm_v"
+  },
+  {
+    "name": "Matthew Lopez",
+    "nickname": "",
+    "tags": ["Bantamweight Division", "Not Fighting"],
+    "division": "Bantamweight Division",
+    "win_lose": "10-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "Wins by Submission", "num": "3" },
+      { "stat": "Wins by Decision", "num": "2" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/fighter_images/Matthew_Lopez/LOPEZ_MATT_L.png?VersionId=ur2QqzGVRB5SZjJ5s8WH3BC.CIy.n5EH&itok=2AtePXTh"
+  },
+  {
+    "name": "Yui Chul Nam",
+    "nickname": "The Korean Bulldozer",
+    "tags": ["Featherweight Division", "Not Fighting"],
+    "division": "Featherweight Division",
+    "win_lose": "18-6-1 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/e9943f22-5da4-486d-b7c1-2272e2c703db%252FYui-Chul-Nam_466030_LeftFullBodyImage.png?itok=HzOHRDxW"
+  },
+  {
+    "name": "Khamzat Chimaev",
+    "nickname": "Borz",
+    "tags": ["#3 Middleweight Division", "Active"],
+    "division": "Middleweight Division",
+    "win_lose": "14-0-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "6" },
+      { "stat": "Wins by Submission", "num": "6" },
+      { "stat": "First Round Finishes", "num": "9" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-05/CHIMAEV_KHAMZAT_L_10-26.png?itok=e96vh3Zo"
+  },
+  {
+    "name": "Mickael Lebout",
+    "nickname": "Ragnar",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "14-5-1 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/8a725f73-611e-4f4d-81c2-f8243946e815%252Fmickael-lebout_527458_LeftFullBodyImage.png?itok=exxRgx2J"
+  },
+  {
+    "name": "Gabriel Bonfim",
+    "nickname": "Marretinha",
+    "tags": ["Welterweight Division"],
+    "division": "Welterweight Division",
+    "win_lose": "17-1-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "3" },
+      { "stat": "Wins by Submission", "num": "13" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2023-07/BONFIM_GABRIEL_L_07_25.png?itok=GjamE7k4"
+  },
+  {
+    "name": "Kristian Rothaermel",
+    "nickname": "Weather Underground",
+    "tags": ["Light Heavyweight Division", "Not Fighting"],
+    "division": "Light Heavyweight Division",
+    "win_lose": "40-4-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Victor Henry",
+    "nickname": "La Mangosta",
+    "tags": ["Bantamweight Division", "Active"],
+    "division": "Bantamweight Division",
+    "win_lose": "25-7-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "7" },
+      { "stat": "Wins by Submission", "num": "8" },
+      { "stat": "First Round Finishes", "num": "5" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-04/HENRY_VICTOR_L_04-05.png?itok=heG4Da8s"
+  },
+  {
+    "name": "Roger Narvaez",
+    "nickname": "Silverback",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "7-2-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/ef5590d7-5034-47bb-8525-016e7dbb1eb3%252FRoger-Narvaez_486262_LeftFullBodyImage.png?itok=IygmVkta"
+  },
+  {
+    "name": "Alex Chambers",
+    "nickname": "Astro Girl",
+    "tags": ["Women's Strawweight Division", "Not Fighting"],
+    "division": "Women's Strawweight Division",
+    "win_lose": "5-4-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/67207/profile-galery/fullbodyleft-picture/Alex-Chambers_501694_LeftFullBodyImage.png?VersionId=h3uAjCkaNMqd75FA4ylVAW_JKdC070ql&itok=8JCHXW1Z"
+  },
+  {
+    "name": "Neil Seery",
+    "nickname": "2Tap",
+    "tags": ["Flyweight Division", "Not Fighting"],
+    "division": "Flyweight Division",
+    "win_lose": "16-13-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/6e61c312-20bc-4e46-b29c-f297bf1e5a16%252FNeil-Seery_473777_LeftFullBodyImage.png?itok=S7e0wr33"
+  },
+  {
+    "name": "Gustavo Lopez",
+    "nickname": "",
+    "tags": ["Bantamweight Division", "Not Fighting"],
+    "division": "Bantamweight Division",
+    "win_lose": "12-6-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "6" },
+      { "stat": "Wins by Submission", "num": "5" },
+      { "stat": "Wins by Decision", "num": "1" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-09/71633%252Fprofile-galery%252Ffullbodyleft-picture%252FLOPEZ_GUSTAVO_L_09-18.png?itok=htxlKVYj"
+  },
+  {
+    "name": "Cortney Casey",
+    "nickname": "Cast Iron",
+    "tags": ["Women's Flyweight Division", "Active"],
+    "division": "Women's Flyweight Division",
+    "win_lose": "10-10-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "3" },
+      { "stat": "Wins by Submission", "num": "4" },
+      { "stat": "First Round Finishes", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-11/67672%252Fprofile-galery%252Ffullbodyleft-picture%252FCASEY_CORTNEY_L_11-13.png?itok=GURSorBn"
+  },
+  {
+    "name": "Justin Tafa",
+    "nickname": "Bad Man",
+    "tags": ["Heavyweight Division", "Active"],
+    "division": "Heavyweight Division",
+    "win_lose": "7-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "7" },
+      { "stat": "First Round Finishes", "num": "5" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-02/TAFA_JUSTIN_L_02-08.png?itok=rvWNCDhv"
+  },
+  {
+    "name": "Darrell Horcher",
+    "nickname": "The Saint",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "13-4-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "6" },
+      { "stat": "Wins by Submission", "num": "1" },
+      { "stat": "Wins by Decision", "num": "6" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/67751/profile-galery/fullbodyleft-picture/HORCHER_DARRELL_L.png?itok=11KxEWXi"
+  },
+  {
+    "name": "Mike Massenzio",
+    "nickname": "The Master of Disaster",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "13-7-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Sean McCorkle",
+    "nickname": "Big Sexy",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "10-2-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "David Onama",
+    "nickname": "",
+    "tags": ["#13 Featherweight Division", "Active"],
+    "division": "Featherweight Division",
+    "win_lose": "14-2-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "7" },
+      { "stat": "Wins by Submission", "num": "4" },
+      { "stat": "First Round Finishes", "num": "6" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/ONAMA_DAVID_L_11-16.png?itok=f78byVVY"
+  },
+  {
+    "name": "Shane Burgos",
+    "nickname": "Hurricane",
+    "tags": ["Featherweight Division", "Not Fighting"],
+    "division": "Featherweight Division",
+    "win_lose": "15-3-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "Wins by Submission", "num": "5" },
+      { "stat": "First Round Finishes", "num": "6" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-07/BURGOS_SHANE_L_07-16.png?itok=iClZJFxe"
+  },
+  {
+    "name": "Steve Steinbeiss",
+    "nickname": "The Hooligan",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "4-4-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Enson Inoue",
+    "nickname": "",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "0-0-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Martin Sano",
+    "nickname": "Spartan",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "4-3-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "1" },
+      { "stat": "Wins by Submission", "num": "3" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-11/SANO_MARTIN_L_09-25.png?itok=aJn0KzVu"
+  },
+  {
+    "name": "Lucas Almeida",
+    "nickname": "",
+    "tags": ["Featherweight Division", "Active"],
+    "division": "Featherweight Division",
+    "win_lose": "15-4-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "9" },
+      { "stat": "Wins by Submission", "num": "5" },
+      { "stat": "First Round Finishes", "num": "9" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2023-06/ALMEIDA_LUCAS_L_06-17.png?itok=CkpG2yeR"
+  },
+  {
+    "name": "Thales Leites",
+    "nickname": "",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "27-9-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/fighter_images/Thales_Lietes/LEITES_THALES_L.png?itok=0DHy5KdR"
+  },
+  {
+    "name": "Azat Maksum",
+    "nickname": "Qazaq",
+    "tags": ["Flyweight Division", "Active"],
+    "division": "Flyweight Division",
+    "win_lose": "17-1-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "Wins by Submission", "num": "7" },
+      { "stat": "First Round Finishes", "num": "6" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-02/MAKSUM_AZAT_L_02-03.png?itok=HaZgviDj"
+  },
+  {
+    "name": "Tom Lawlor",
+    "nickname": "Filthy",
+    "tags": ["Light Heavyweight Division", "Not Fighting"],
+    "division": "Light Heavyweight Division",
+    "win_lose": "10-6-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/e5fe590f-f99f-4a24-a65b-bb4f1a905de9%252FTom-Lawlor_991_LeftFullBodyImage.png?itok=H28pkag2"
+  },
+  {
+    "name": "Phillipe Nover",
+    "nickname": "The Filipino Assassin",
+    "tags": ["Featherweight Division", "Not Fighting"],
+    "division": "Featherweight Division",
+    "win_lose": "12-8-1 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/3c5eebd6-50ba-4e7c-a545-5e1e48187bba%252FPhillipe-Nover_1002_LeftFullBodyImage.png?itok=NtkU9-ii"
+  },
+  {
+    "name": "Cameron Else",
+    "nickname": "Camchida",
+    "tags": ["Bantamweight Division", "Not Fighting"],
+    "division": "Bantamweight Division",
+    "win_lose": "10-6-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "6" },
+      { "stat": "Wins by Submission", "num": "4" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-05/77c5eb02-311a-42d9-9f27-094f128ec7ee%252FELSE_CAMERON_L_04-23.png?itok=TGlIlLMn"
+  },
+  {
+    "name": "Elizeu Zaleski dos Santos",
+    "nickname": "Capoeira",
+    "tags": ["Welterweight Division", "Active"],
+    "division": "Welterweight Division",
+    "win_lose": "25-9-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "15" },
+      { "stat": "Wins by Submission", "num": "3" },
+      { "stat": "First Round Finishes", "num": "11" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/DOS_SANTOS_ELIZEU_L_11-09.png?itok=h0devpO_"
+  },
+  {
+    "name": "Hatsu Hioki",
+    "nickname": "",
+    "tags": ["Featherweight Division", "Not Fighting"],
+    "division": "Featherweight Division",
+    "win_lose": "27-8-2 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/dd2cf54c-8109-4af6-923b-c9fda3f8676c%252FHatsu-Hioki_205685_LeftFullBodyImage.png?itok=1mMcnd6l"
+  },
+  {
+    "name": "Evan Elder",
+    "nickname": "The Phenom ",
+    "tags": ["Lightweight Division", "Active"],
+    "division": "Lightweight Division",
+    "win_lose": "10-2-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "Wins by Submission", "num": "2" },
+      { "stat": "First Round Finishes", "num": "4" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-04/ELDER_EVAN_L_04-26.png?itok=yb3BXx6q"
+  },
+  {
+    "name": "Laverne Clark",
+    "nickname": "",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "0-0-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Alessandro Costa",
+    "nickname": "Nono",
+    "tags": ["Flyweight Division", "Active"],
+    "division": "Flyweight Division",
+    "win_lose": "14-4-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "Wins by Submission", "num": "6" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-05/COSTA_ALESSANDRO_L_05-04.png?itok=C0huHc3c"
+  },
+  {
+    "name": "Viscardi Andrade",
+    "nickname": "",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "19-7-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/fbb2d8f4-78ea-4f3c-8d1c-9a7f9a5c4ff1%252Fviscardi-andrade_309084_LeftFullBodyImage.png?itok=oc3q1OPg"
+  },
+  {
+    "name": "Rory Markham",
+    "nickname": "",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "16-6-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Dan Barrera",
+    "nickname": "",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "1-1-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Abubakar Nurmagomedov",
+    "nickname": "",
+    "tags": ["Welterweight Division", "Active"],
+    "division": "Welterweight Division",
+    "win_lose": "17-4-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "6" },
+      { "stat": "Wins by Submission", "num": "4" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-10/NURMAGOMEDOV_ABUBAKAR_L_10-22.png?itok=Z1SPc6tQ"
+  },
+  {
+    "name": "Joel Sutton",
+    "nickname": "",
+    "tags": ["Not Fighting"],
+    "division": "",
+    "win_lose": "0-0-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Vinc Pichel",
+    "nickname": "From Hell",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "14-5-0 (W-L-D)",
+    "stats": [{ "stat": "Wins by Knockout", "num": "8" }],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-05/PICHEL_VINC_L_11-04.png?itok=XuJ2juRw"
+  },
+  {
+    "name": "Anthony Njokuani",
+    "nickname": "The Assassin",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "16-9-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/f9c60486-80de-4ebb-a65f-8250899d2172%252FAnthony-Njokuani_1008_LeftFullBodyImage.png?itok=gF3KImNI"
+  },
+  {
+    "name": "Ryan Thomas",
+    "nickname": "The Tank Engine",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "13-3-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Aliaskhab Khizriev",
+    "nickname": "Black Wolf",
+    "tags": ["Middleweight Division", "Active"],
+    "division": "Middleweight Division",
+    "win_lose": "14-0-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "Wins by Submission", "num": "5" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-02/KHIZRIEV_ALIASKHAB_L_02-03.png?itok=7YZ1lL3y"
+  },
+  {
+    "name": "Icho Larenas",
+    "nickname": "",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "3-2-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Luis Pajuelo",
+    "nickname": "Corazon de Leon",
+    "tags": ["Featherweight Division", "Not Fighting"],
+    "division": "Featherweight Division",
+    "win_lose": "8-2-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "7" },
+      { "stat": "First Round Finishes", "num": "4" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-04/PAJUELO_LUIS_L_03-23.png?itok=j-LN6Tbf"
+  },
+  {
+    "name": "Scott Bessac",
+    "nickname": "",
+    "tags": ["Not Fighting"],
+    "division": "",
+    "win_lose": "0-0-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Alejandro Pérez",
+    "nickname": "Turbo",
+    "tags": ["Featherweight Division", "Not Fighting"],
+    "division": "Featherweight Division",
+    "win_lose": "23-9-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "10" },
+      { "stat": "Wins by Submission", "num": "6" },
+      { "stat": "Wins by Decision", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2021-10/67194%252Fprofile-galery%252Ffullbodyleft-picture%252FPEREZ_ALEJANDRO_L_10-02.png?itok=ZPsQXDFU"
+  },
+  {
+    "name": "HyunSung Park",
+    "nickname": "Peace of Mind",
+    "tags": ["Flyweight Division", "Active"],
+    "division": "Flyweight Division",
+    "win_lose": "10-0-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "Wins by Submission", "num": "5" },
+      { "stat": "First Round Finishes", "num": "5" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-05/PARK_HYUNSUNG_L_05-17.png?itok=q-nB7Qba"
+  },
+  {
+    "name": "Paul Buentello",
+    "nickname": "The Headhunter",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "25-12-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Jai Herbert",
+    "nickname": "Black Country Banger",
+    "tags": ["Lightweight Division", "Active"],
+    "division": "Lightweight Division",
+    "win_lose": "13-6-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "9" },
+      { "stat": "Wins by Submission", "num": "1" },
+      { "stat": "First Round Finishes", "num": "4" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-03/HERBERT_JAI_L_03-22.png?itok=-HyjDEp4"
+  },
+  {
+    "name": "Mayra Bueno Silva",
+    "nickname": "Sheetara",
+    "tags": ["Women's Flyweight Division", "Active"],
+    "division": "Women's Flyweight Division",
+    "win_lose": "10-5-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "1" },
+      { "stat": "Wins by Submission", "num": "7" },
+      { "stat": "First Round Finishes", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/5/BUENO_SILVA_MAYRA_L_06-29.png?itok=IHGjF-C8"
+  },
+  {
+    "name": "Daria Zhelezniakova",
+    "nickname": "Iron Lady",
+    "tags": ["Women's Bantamweight Division", "Active"],
+    "division": "Women's Bantamweight Division",
+    "win_lose": "9-2-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "First Round Finishes", "num": "2" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-09/ZHELEZNIAKOVA_DARIA_L_03-23.png?itok=iKAW6e-F"
+  },
+  {
+    "name": "Michael McBride",
+    "nickname": "",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "8-3-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/75eb19ea-a0c8-4889-87b5-7a7b918fe3c1%252Fmichael-mcbride_604656_LeftFullBodyImage.png?itok=F9sh12XV"
+  },
+  {
+    "name": "Dan Hooker",
+    "nickname": "The Hangman",
+    "tags": ["#6 Lightweight Division", "Active"],
+    "division": "Lightweight Division",
+    "win_lose": "24-12-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "11" },
+      { "stat": "Wins by Submission", "num": "7" },
+      { "stat": "First Round Finishes", "num": "12" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/5/HOOKER_DAN_L_08-17.png?itok=nQrCj9pI"
+  },
+  {
+    "name": "Sean Sharaf",
+    "nickname": "The Smoke",
+    "tags": ["Heavyweight Division", "Active"],
+    "division": "Heavyweight Division",
+    "win_lose": "4-1-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "First Round Finishes", "num": "4" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/SHERAF_SEAN_L_10-12.png?itok=-gfHs4j_"
+  },
+  {
+    "name": "Talita Bernardo",
+    "nickname": "",
+    "tags": ["Women's Bantamweight Division", "Not Fighting"],
+    "division": "Women's Bantamweight Division",
+    "win_lose": "6-4-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Submission", "num": "4" },
+      { "stat": "Wins by Decision", "num": "2" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/image/fighter_images/Talita_Bernardo/BERNARDO_TALITA_L.png?VersionId=8DVg7eAQkKaiCTn4NsJrCrxAqnG.9Glw&itok=dEREsf_A"
+  },
+  {
+    "name": "Khalid Murtazaliev",
+    "nickname": "",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "14-2-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2018-10/MURTAZALIEV_KHALID_L_0.png?VersionId=2RoFXc4Ovtjsnxua_00ZCbeOPq0M3d7K&itok=etqEtvre"
+  },
+  {
+    "name": "Aaron Phillips",
+    "nickname": "The Dragon",
+    "tags": ["Bantamweight Division", "Not Fighting"],
+    "division": "Bantamweight Division",
+    "win_lose": "12-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "6" },
+      { "stat": "Wins by Submission", "num": "2" },
+      { "stat": "First Round Finishes", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2023-04/PHILLIPS_AARON_L_04-15.png?itok=oEAx-m9N"
+  },
+  {
+    "name": "Jason Tan",
+    "nickname": "",
+    "tags": ["Welterweight Division", "Not Fighting"],
+    "division": "Welterweight Division",
+    "win_lose": "6-3-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Hannah Cifers",
+    "nickname": "Shockwave",
+    "tags": ["Women's Strawweight Division", "Retired"],
+    "division": "Women's Strawweight Division",
+    "win_lose": "10-7-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "5" },
+      { "stat": "Wins by Decision", "num": "5" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2019-08/CIFERS_HANNAH_L.png?VersionId=iG5cdaZl5Fb7DRJWK5y3ZT7fTEaXMgXu&itok=DW_CRX3d"
+  },
+  {
+    "name": "Denys Bondar",
+    "nickname": "Psycho",
+    "tags": ["Flyweight Division", "Active"],
+    "division": "Flyweight Division",
+    "win_lose": "14-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "Wins by Submission", "num": "9" },
+      { "stat": "First Round Finishes", "num": "11" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2023-06/BONDAR_DENYS_L_06-17.png?itok=xoH_6-lu"
+  },
+  {
+    "name": "Steve Byrnes",
+    "nickname": "The Sergeant",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "6-1-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Kyoji Horiguchi",
+    "nickname": "",
+    "tags": ["Flyweight Division", "Active"],
+    "division": "Flyweight Division",
+    "win_lose": "18-2-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-03/cdc8a9bf-caf8-406d-bd62-f985e7c4b0ce%252FKyoji-Horiguchi_456636_LeftFullBodyImage.png?itok=wQP4PVIy"
+  },
+  {
+    "name": "Roger Hollett",
+    "nickname": "The Hulk",
+    "tags": ["Light Heavyweight Division", "Not Fighting"],
+    "division": "Light Heavyweight Division",
+    "win_lose": "13-5-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Derek Brunson",
+    "nickname": "The 1",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "23-9-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "12" },
+      { "stat": "Wins by Submission", "num": "4" },
+      { "stat": "First Round Finishes", "num": "7" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2023-03/BRUNSON_DEREK_L_03-05.png?itok=JICpb7Hn"
+  },
+  {
+    "name": "Steve Garcia",
+    "nickname": "Mean Machine",
+    "tags": ["Featherweight Division", "Active"],
+    "division": "Featherweight Division",
+    "win_lose": "17-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "14" },
+      { "stat": "First Round Finishes", "num": "8" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-09/GARCIA_STEVE_L_09-07.png?itok=PHhB8brc"
+  },
+  {
+    "name": "Leandro Issa",
+    "nickname": "Brodinho",
+    "tags": ["Bantamweight Division", "Not Fighting"],
+    "division": "Bantamweight Division",
+    "win_lose": "13-6-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2020-03/Leandro-Issa_464805_LeftFullBodyImage.png?VersionId=Y2yypyyhEhFY47480g5fkIFGGGb8esVj&itok=_Q2SJ3mf"
+  },
+  {
+    "name": "Chase Gormley",
+    "nickname": "",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "6-2-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Mairbek Taisumov",
+    "nickname": "Beckan",
+    "tags": ["Lightweight Division", "Not Fighting"],
+    "division": "Lightweight Division",
+    "win_lose": "27-6-0 (W-L-D)",
+    "stats": [],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2018-10/TAISUMOV_MAIRBEK_L.png?VersionId=EWuxiOB8HBWPiuWjpQkzRF5AwzVsJhw2&itok=xz8U3-to"
+  },
+  {
+    "name": "Cameron Smotherman",
+    "nickname": "The Baby-Faced Killa",
+    "tags": ["Bantamweight Division", "Active"],
+    "division": "Bantamweight Division",
+    "win_lose": "12-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "6" },
+      { "stat": "Wins by Submission", "num": "1" },
+      { "stat": "First Round Finishes", "num": "2" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-05/SMOTHERMAN_CAMERON_L_05-03.png?itok=7vnK9dXl"
+  },
+  {
+    "name": "Chidi Njokuani",
+    "nickname": "Bang Bang",
+    "tags": ["Welterweight Division", "Active"],
+    "division": "Welterweight Division",
+    "win_lose": "25-10-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "15" },
+      { "stat": "Wins by Submission", "num": "1" },
+      { "stat": "First Round Finishes", "num": "10" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2023-08/NJOKUANI_CHIDI_L.png?itok=-cmTqGK_"
+  },
+  {
+    "name": "Christian Morecraft",
+    "nickname": "",
+    "tags": ["Heavyweight Division", "Not Fighting"],
+    "division": "Heavyweight Division",
+    "win_lose": "7-3-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Markus Perez",
+    "nickname": "Maluko",
+    "tags": ["Middleweight Division", "Not Fighting"],
+    "division": "Middleweight Division",
+    "win_lose": "12-5-0 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "3" },
+      { "stat": "Wins by Submission", "num": "6" },
+      { "stat": "Wins by Decision", "num": "3" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2020-10/68722%252Fprofile-galery%252Ffullbodyleft-picture%252FPEREZ_MARKUS_L_11-16.png?itok=rZQ6A_ys"
+  },
+  {
+    "name": "Wagner Prado",
+    "nickname": "Caldeirao",
+    "tags": ["Light Heavyweight Division", "Not Fighting"],
+    "division": "Light Heavyweight Division",
+    "win_lose": "8-2-0 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Mike Ciesnolevicz",
+    "nickname": "Mike C",
+    "tags": ["Light Heavyweight Division", "Not Fighting"],
+    "division": "Light Heavyweight Division",
+    "win_lose": "18-4-1 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Chase Hooper",
+    "nickname": "The Dream",
+    "tags": ["Lightweight Division", "Active"],
+    "division": "Lightweight Division",
+    "win_lose": "16-3-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "4" },
+      { "stat": "Wins by Submission", "num": "8" },
+      { "stat": "First Round Finishes", "num": "6" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-12/HOOPER_CHASE_L_05-11.png?itok=eo-FfoXp"
+  },
+  {
+    "name": "Bill Mahood",
+    "nickname": "The Butcher",
+    "tags": ["Light Heavyweight Division", "Not Fighting"],
+    "division": "Light Heavyweight Division",
+    "win_lose": "12-3-1 (W-L-D)",
+    "stats": []
+  },
+  {
+    "name": "Cody Stamann",
+    "nickname": "Spartan",
+    "tags": ["Bantamweight Division", "Not Fighting"],
+    "division": "Bantamweight Division",
+    "win_lose": "21-8-1 (W-L-D)",
+    "stats": [
+      { "stat": "Wins by Knockout", "num": "7" },
+      { "stat": "Wins by Submission", "num": "2" },
+      { "stat": "First Round Finishes", "num": "5" }
+    ],
+    "img": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/STAMANN_CODY_L_11-09.png?itok=RoIqSmck"
+  }
+]
