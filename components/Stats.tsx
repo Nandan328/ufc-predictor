@@ -60,18 +60,18 @@ export function Stats({
   }, [redFighterDetails, blueFighterDetails]);
 
   return (
-    <div className="bg-black m-2">
-      <div className="p-3">
-        <h2 className="text-2xl font-semibold mb-4 text-center bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">
+    <div className="bg-black mb-2">
+      <div className="md:p-3">
+        <h2 className="text-2xl font-semibold md:mb-4 text-center bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">
           VS
         </h2>
 
         {selected ? (
-          <div className="space-y-4">
+          <div className="md:space-y-4">
             {/* Fighter Names */}
-            <div className="grid grid-cols-3 gap-3 mb-2">
+            <div className="grid grid-cols-3 md:gap-3 md:mb-2">
               <div className="text-right">
-                <h3 className="text-lg text-center font-semibold text-red-500">
+                <h3 className="md:text-lg text-center font-semibold text-red-500">
                   {redFighterDetails?.name}
                 </h3>
                 <p className="text-xs text-center text-red-300 italic">
@@ -84,7 +84,7 @@ export function Stats({
                 </h4>
               </div>
               <div className="text-left">
-                <h3 className="text-lg text-center font-semibold text-blue-500">
+                <h3 className="md:text-lg text-center font-semibold text-blue-500">
                   {blueFighterDetails?.name}
                 </h3>
                 <p className="text-xs text-center text-blue-300 italic">

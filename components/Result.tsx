@@ -1,6 +1,6 @@
 export function Result({ result }: { result: string | null }) {
   return (
-    <div className="mt-4">
+    <div className="mt-2 md:mt-4">
       {result ? (
         <p className="text-center text-lg font-semibold">{result}</p>
       ) : (

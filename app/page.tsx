@@ -36,16 +36,16 @@ export default function Home() {
       <Info />
       <div className="min-h-screen bg-black text-white">
         <header className="text-center pt-3 pb-2">
-          <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">
+          <h1 className="text-2xl md:text-4xl font-bold mb-3 bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">
             Who will win the Fight?
           </h1>
-          <p className="text-gray-300 text-sm">
+          <p className="text-gray-300 text-xs md:text-sm">
             Pick two fighters and see who comes out on top!
           </p>
         </header>
 
-        <div className="flex w-full max-w-7xl mx-auto px-3">
-          <div className="flex-1">
+        <div className="flex flex-wrap w-full max-w-7xl mx-auto px-3 justify-center">
+          <div className="order-1 w-1/2 md:w-1/3">
             <Card
               setfighter={setRedFighter}
               fighterType="red"
@@ -54,7 +54,16 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex-1">
+          <div className="order-2 w-1/2 md:w-1/3 md:order-3">
+            <Card
+              invert={true}
+              setfighter={setBlueFighter}
+              fighterType="blue"
+              fighterImage={blueFighterDetails?.img}
+              setResult={setResult}
+            /> 
+          </div>
+            <div className="order-3 md:order-2 md:w-1/3">
             <Stats
               redFighter={redfighter}
               blueFighter={bluefighter}
@@ -63,16 +72,7 @@ export default function Home() {
               setRedFighterDetails={setRedFighterDetails}
               setBlueFighterDetails={setBlueFighterDetails}
             />
-          </div>
-
-          <div className="flex-1">
-            <Card
-              invert={true}
-              setfighter={setBlueFighter}
-              fighterType="blue"
-              fighterImage={blueFighterDetails?.img}
-              setResult={setResult}
-            />
+          
           </div>
         </div>
         <Button

@@ -20,7 +20,7 @@ export function Avatar({
           alt="Fighter Avatar"
           width={208}
           height={316}
-          className="transform scale-x-[-1] w-[208px] h-[316px] object-cover"
+          className="w-[170px] h-[230px] transform scale-x-[-1] md:w-[208px] md:h-[316px] object-cover"
         />
       ) : (
         <Image
@@ -28,7 +28,7 @@ export function Avatar({
           alt="Fighter Avatar"
           width={208}
           height={316}
-          className="w-[208px] h-[316px] object-cover"
+          className="w-[170px] h-[230px] md:w-[208px] md:h-[316px] object-cover"
         />
       )}
     </div>
