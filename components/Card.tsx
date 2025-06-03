@@ -33,7 +33,7 @@ export function Card({ invert = false, setfighter, fighterType, fighterImage, se
           {fighters.map((fighter, i) => {
             let fighterName = fighter;
             fighterName = fighterName.split(" ").map((e) => {
-              return e.charAt(0).toUpperCase() + e.slice(1).toLowerCase();
+              return e.charAt(0).toUpperCase() + e.slice(1);
             }).join(" ");
             return (
               <option key={i} value={fighterName} className="text-white bg-black">
