@@ -20,7 +20,7 @@ export async function GET(
   });
 
   if (!existingFighter) {
-    const res = await prisma.fighterData.create({
+    await prisma.fighterData.create({
       data: {
         name: fighter_details.name,
         nickname: fighter_details.nickname,
