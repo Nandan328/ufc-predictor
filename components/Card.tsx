@@ -30,11 +30,17 @@ export function Card({ invert = false, setfighter, fighterType, fighterImage, se
           <option value="" className="text-gray-400 bg-black">
             Choose a Fighter
           </option>
-          {fighters.map((fighter, i) => (
-            <option key={i} value={fighter} className="text-white bg-black">
-              {fighter}
-            </option>
-          ))}
+          {fighters.map((fighter, i) => {
+            let fighterName = fighter;
+            fighterName = fighterName.split(" ").map((e) => {
+              return e.charAt(0).toUpperCase() + e.slice(1).toLowerCase();
+            }).join(" ");
+            return (
+              <option key={i} value={fighterName} className="text-white bg-black">
+                {fighterName}
+              </option>
+            );
+          })}
         </select>
       </div>
     </div>
