@@ -28,11 +28,13 @@ export async function GET(
         division: fighter_details.division,
         win_lose: fighter_details.win_lose,
         stats: Array.isArray(fighter_details.stats)
-          ? fighter_details.stats.map((stat) => ({
-              stat: stat.stat,
-              num: stat.num,
-            }))
-          : [],
+          ? {
+              set: fighter_details.stats.map((stat) => ({
+                stat: stat.stat,
+                num: stat.num,
+              })),
+            }
+          : { set: [] },
         img: fighter_details.img,
       },
     });
