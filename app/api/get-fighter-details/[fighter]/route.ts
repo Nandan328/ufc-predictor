@@ -4,20 +4,22 @@ import { prisma } from "@/prisma";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ fighter: string }> }
+  { params }: { params: { fighter: string } }
 ) {
-  const { fighter } = await params;
+  const { fighter } = params;
 
   const fighter_details = await findFighterDetails(fighter);
   if (!fighter_details) {
     return NextResponse.json({ error: "Fighter not found" }, { status: 404 });
   }
 
-  if(!await prisma.fighterData.findFirst({
-    where: {
-      name: fighter_details.name,
-    },
-  })) {
+  if (
+    !(await prisma.fighterData.findFirst({
+      where: {
+        name: fighter_details.name,
+      },
+    }))
+  ) {
     const res = await prisma.fighterData.create({
       data: {
         name: fighter_details.name,
