@@ -37,7 +37,7 @@ export function Stats({
   const [selected, setSelected] = useState<boolean>(false);
 
   useEffect(() => {
-    if(redFighter) {
+    if(redFighter && !redFighterDetails) {
       axios.get(`api/get-fighter-details/${redFighter}`).then((response) => {
         setRedFighterDetails(response.data);
       }).catch((error) => {
@@ -45,7 +45,7 @@ export function Stats({
         setRedFighterDetails(null);
       });
     }
-    if(blueFighter) {
+    if(blueFighter && !blueFighterDetails) {
       axios.get(`api/get-fighter-details/${blueFighter}`).then((response) => {
         setBlueFighterDetails(response.data);
       }).catch((error) => {

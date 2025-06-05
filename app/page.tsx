@@ -51,6 +51,7 @@ export default function Home() {
               fighterType="red"
               fighterImage={redFighterDetails?.img}
               setResult={setResult}
+              setFighterDetails={setRedFighterDetails}
             />
           </div>
 
@@ -61,6 +62,7 @@ export default function Home() {
               fighterType="blue"
               fighterImage={blueFighterDetails?.img}
               setResult={setResult}
+              setFighterDetails={setBlueFighterDetails}
             /> 
           </div>
             <div className="order-3 md:order-2 md:w-1/3">

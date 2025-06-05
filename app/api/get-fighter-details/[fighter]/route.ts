@@ -1,6 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
-import findFighterDetails from ".";
-// import { prisma } from "@/prisma";
+import fighterDetails from "@data/data.json"
+
+interface FighterDetails {
+  name: string;
+  nickname?: string;
+  division?: string;
+  tags?: string[];
+  win_lose?: string;
+  stats: { stat?: string; num?: string }[];
+  img?: string;
+}
 
 export async function GET(
   request: NextRequest,
@@ -8,37 +17,29 @@ export async function GET(
 ) {
   const { fighter } = await params;
 
-  const fighter_details = await findFighterDetails(fighter);
+  const fighter_details = await binarySearchByName(fighterDetails, fighter);
+
   if (!fighter_details) {
     return NextResponse.json({ error: "Fighter not found" }, { status: 404 });
   }
-
-  // const existingFighter = await prisma.fighterData.findUnique({
-  //   where: {
-  //     name: fighter_details.name,
-  //   },
-  // });
-
-  // if (!existingFighter) {
-  //   await prisma.fighterData.create({
-  //     data: {
-  //       name: fighter_details.name,
-  //       nickname: fighter_details.nickname,
-  //       tags: fighter_details.tags,
-  //       division: fighter_details.division,
-  //       win_lose: fighter_details.win_lose,
-  //       stats: Array.isArray(fighter_details.stats)
-  //         ? {
-  //             set: fighter_details.stats.map((stat) => ({
-  //               stat: stat.stat,
-  //               num: stat.num,
-  //             })),
-  //           }
-  //         : { set: [] },
-  //       img: fighter_details.img,
-  //     },
-  //   });
-  // }
-
   return NextResponse.json(fighter_details);
+}
+
+function binarySearchByName(arr: FighterDetails[], targetName: string) {
+  let left = 0;
+  let right = arr.length - 1;
+
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+    const midName = arr[mid].name;
+
+    if (midName === targetName) {
+      return arr[mid];
+    } else if (midName < targetName) {
+      left = mid + 1;
+    } else {
+      right = mid - 1;
+    }
+  }
+  return null;
 }

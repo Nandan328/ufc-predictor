@@ -1,5 +1,22 @@
 import fighters from "@data/fighter_names.json";
 import { Avatar } from "./Avatar";
+import { useEffect, useState } from "react";
+import { SuggestionMenu } from "./SuggestionMenu";
+
+interface FighterStat {
+  stat: string;
+  num: string;
+}
+
+interface FighterData {
+  name: string;
+  nickname: string;
+  tags: string[];
+  division: string;
+  win_lose: string;
+  stats: FighterStat[];
+  img?: string;
+}
 
 interface CardProps {
   invert?: boolean;
@@ -7,9 +24,30 @@ interface CardProps {
   fighterType: "red" | "blue";
   fighterImage?: string;
   setResult: (result: string | null) => void;
+  setFighterDetails: (details: FighterData | null) => void;
 }
 
-export function Card({ invert = false, setfighter, fighterType, fighterImage, setResult }: CardProps) {
+export function Card({ invert = false, setfighter, fighterType, fighterImage, setResult, setFighterDetails }: CardProps) {
+
+  const [fighterName, setFighterName] = useState<string>("");
+  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [clicked, setClicked] = useState<boolean>(false);
+
+  useEffect(() => {
+    setSuggestions([]);
+    fighters.forEach((fighter) => {
+      if(fighter.toLowerCase().includes(fighterName.toLowerCase()) && fighterName.length > 0) {
+        setSuggestions((prev) => [...prev, fighter]);
+      }
+    });
+  }, [fighterName]);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFighterDetails(null);
+    setFighterName(e.target.value);
+    setClicked(true);
+    setResult(null);
+  };
 
   return (
     <div
@@ -17,31 +55,11 @@ export function Card({ invert = false, setfighter, fighterType, fighterImage, se
     >
       <Avatar invert={invert} fighterType={fighterType} fighterImage={fighterImage} />
 
-      <div className="mt-2 w-full max-w-xs">
-        <select
-          name="fighters"
-          id="fighters"
-          className={`w-full p-3 bg-black border border-gray-600 scrollbar-hide`}
-          onChange={(e) => {
-            setfighter(e.target.value);
-            setResult(null);
-          }}
-        >
-          <option value="" className="text-gray-400 bg-black">
-            Choose a Fighter
-          </option>
-          {fighters.map((fighter, i) => {
-            let fighterName = fighter;
-            fighterName = fighterName.split(" ").map((e) => {
-              return e.charAt(0).toUpperCase() + e.slice(1);
-            }).join(" ");
-            return (
-              <option key={i} value={fighterName} className="text-white bg-black">
-                {fighterName}
-              </option>
-            );
-          })}
-        </select>
+      <div className="mt-2 w-full max-w-xs flex flex-col items-center">
+        <input type="text" onChange={(e) => handleChange(e)} value={fighterName} className="border w-50 md:text-xl text-center focus:outline-none"/>
+        { (fighterName && clicked) && (
+          <SuggestionMenu suggestions={suggestions} setFighterName={setFighterName} setFighter={setfighter} setClicked={setClicked} />
+        )}
       </div>
     </div>
   );
