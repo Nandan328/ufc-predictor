@@ -68,7 +68,6 @@ export function Stats({
 
         {selected ? (
           <div className="md:space-y-4">
-            {/* Fighter Names */}
             <div className="grid grid-cols-3 md:gap-3 md:mb-2">
               <div className="text-right">
                 <h3 className="md:text-lg text-center font-semibold text-red-500">
@@ -92,7 +91,6 @@ export function Stats({
                 </p>
               </div>
             </div>
-            {/* Basic Info */}
             <div className="space-y-1">
               <h4 className="text-md font-semibold text-center text-white mb-2 border-b border-gray-600 pb-1">
                 BASIC INFO

@@ -36,27 +36,27 @@ export function Card({ invert = false, setfighter, fighterType, fighterImage, se
   useEffect(() => {
     setSuggestions([]);
     fighters.forEach((fighter) => {
-      if(fighter.toLowerCase().includes(fighterName.toLowerCase()) && fighterName.length > 0) {
-        setSuggestions((prev) => [...prev, fighter]);
+      if(fighter?.name.toLowerCase().includes(fighterName.toLowerCase()) && fighterName.length > 0) {
+        setSuggestions((prev) => [...prev, fighter.name]);
       }
     });
   }, [fighterName]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFighterDetails(null);
     setFighterName(e.target.value);
+    setFighterDetails(null);
     setClicked(true);
     setResult(null);
   };
 
   return (
     <div
-      className={`w-full flex flex-col items-center justify-center p-6 bg-black  m-2`}
+      className="w-full flex flex-col items-center justify-center p-6 bg-black  m-2"
     >
       <Avatar invert={invert} fighterType={fighterType} fighterImage={fighterImage} />
 
       <div className="mt-2 w-full max-w-xs flex flex-col items-center">
-        <input type="text" onChange={(e) => handleChange(e)} value={fighterName} className="border w-50 md:text-xl text-center focus:outline-none"/>
+        <input type="text" onChange={(e) => handleChange(e)} value={fighterName} className="border rounded w-40 md:w-50 text-sm p-1 md:p-1.5 md:text-md text-center focus:outline-none"/>
         { (fighterName && clicked) && (
           <SuggestionMenu suggestions={suggestions} setFighterName={setFighterName} setFighter={setfighter} setClicked={setClicked} />
         )}

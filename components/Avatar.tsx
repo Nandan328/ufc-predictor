@@ -16,6 +16,7 @@ export function Avatar({
     <div className="mb-3 p-3 bg-black">
       {invert ? (
         <Image
+          draggable={false}
           src={fighterImage || default_image}
           alt="Fighter Avatar"
           width={208}
@@ -24,6 +25,7 @@ export function Avatar({
         />
       ) : (
         <Image
+          draggable={false}
           src={fighterImage || default_image}
           alt="Fighter Avatar"
           width={208}

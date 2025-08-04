@@ -22,8 +22,8 @@ export function Button({ redFighter, blueFighter, setResult }: ButtonProps) {
         })
         .then((res) => {
           console.log("Prediction response:", res.data);
-          if (res.data.predicted_winner) {
-            setResult(res.data.predicted_winner);
+          if (res.data.winner_name) {
+            setResult(res.data.winner_name);
           } else {
             setResult("No prediction available.");
           }
@@ -40,7 +40,12 @@ export function Button({ redFighter, blueFighter, setResult }: ButtonProps) {
 
   return (
     <div className="flex items-center justify-center">
-      <button onClick={() => getPrediction()} className="cursor-pointer border px-2 py-1 rounded-2xl ">Who will win</button>
+      <button
+        onClick={() => getPrediction()}
+        className="px-4 py-2 border cursor-pointer border-white rounded-full bg-black text-white hover:bg-white hover:text-black transition-colors duration-200 font-medium"
+      >
+        Who will win
+      </button>
     </div>
   );
 }

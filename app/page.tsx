@@ -30,7 +30,7 @@ export default function Home() {
   const [blueFighterDetails, setBlueFighterDetails] =
     useState<FighterData | null>(null);
   const [result, setResult] = useState<string | null>(null);
-
+  console.log("Red Fighter:", redfighter);
   return (
     <>
       <Info />

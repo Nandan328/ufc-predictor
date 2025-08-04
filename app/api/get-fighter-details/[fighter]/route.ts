@@ -31,8 +31,8 @@ function binarySearchByName(arr: FighterDetails[], targetName: string) {
 
   while (left <= right) {
     const mid = Math.floor((left + right) / 2);
-    const midName = arr[mid].name;
-
+    const midName = arr[mid].name.toLowerCase().trim();
+    targetName = targetName.toLowerCase().trim();
     if (midName === targetName) {
       return arr[mid];
     } else if (midName < targetName) {

@@ -14,18 +14,17 @@ export function SuggestionMenu({ suggestions, setFighterName, setFighter, setCli
 
     return (
       <>
-        <div className="mt-7 absolute z-10 border max-h-50 w-50 overflow-scroll scrollbar-hide bg-black text-white">
+        <div className="mt-9 md:mt-10 p-1.5 rounded absolute z-10 border max-h-50 w-40 md:w-50 overflow-scroll scrollbar-hide bg-black text-white">
           <ul>
             {suggestions.map((suggestion, index) => (
               <li
                 key={index}
                 onClick={() => handleSuggestionClick(suggestion)}
-                className="cursor-pointer hover:bg-neutral-600 text-center m-1"
+                className="cursor-pointer p-1 hover:bg-neutral-600 rounded text-sm text-center m-1"
               >
                 {suggestion}
                 <hr />
               </li>
-              
             ))}
           </ul>
         </div>
