@@ -1,15 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import fighterDetails from "@data/data.json"
-
-interface FighterDetails {
-  name: string;
-  nickname?: string;
-  division?: string;
-  tags?: string[];
-  win_lose?: string;
-  stats: { stat?: string; num?: string }[];
-  img?: string;
-}
+import { FighterData as FighterDetails } from "@/app/lib/types";
 
 export async function GET(
   request: NextRequest,
@@ -19,7 +10,7 @@ export async function GET(
 
   const fighter_details = await binarySearchByName(fighterDetails, fighter);
 
-  if (!fighter_details) {
+  if (!fighter_details) {   
     return NextResponse.json({ error: "Fighter not found" }, { status: 404 });
   }
   return NextResponse.json(fighter_details);

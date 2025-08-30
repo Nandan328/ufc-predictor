@@ -4,7 +4,7 @@ import default_image from "@public/default-image.png";
 interface AvatarProps {
   invert?: boolean;
   fighterType?: "red" | "blue";
-  fighterImage?: string;
+  fighterImage?: string | null;
 }
 
 export function Avatar({
@@ -13,7 +13,7 @@ export function Avatar({
 }: AvatarProps) {
 
   return (
-    <div className="mb-3 p-3 bg-black">
+    <div className="mb-2 p-2">
       {invert ? (
         <Image
           draggable={false}
@@ -21,7 +21,10 @@ export function Avatar({
           alt="Fighter Avatar"
           width={208}
           height={316}
-          className="w-[170px] h-[230px] transform scale-x-[-1] md:w-[208px] md:h-[316px] object-cover"
+          priority
+          className={`w-[170px] h-[230px] transform scale-x-[-1] md:w-[208px] md:h-[316px] object-cover ${
+            fighterImage ? "" : "invert dark:invert-0"
+          }`}
         />
       ) : (
         <Image
@@ -30,7 +33,10 @@ export function Avatar({
           alt="Fighter Avatar"
           width={208}
           height={316}
-          className="w-[170px] h-[230px] md:w-[208px] md:h-[316px] object-cover"
+          priority
+          className={`w-[170px] h-[230px] md:w-[208px] md:h-[316px] object-cover ${
+            fighterImage ? "" : "invert dark:invert-0"
+          }`}
         />
       )}
     </div>

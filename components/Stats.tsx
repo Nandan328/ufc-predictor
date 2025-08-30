@@ -1,20 +1,8 @@
+"use client";
+
 import axios from "axios";
-import { useEffect, useState } from "react";
-
-interface FighterStat {
-  stat: string;
-  num: string;
-}
-
-interface FighterData {
-  name: string;
-  nickname: string;
-  division: string;
-  tags: string[];
-  win_lose: string;
-  stats: FighterStat[];
-  img?: string;
-}
+import { useEffect } from "react";
+import { FighterData } from "@/app/lib/types";
 
 interface StatsProps {
   redFighter: string;
@@ -33,123 +21,98 @@ export function Stats({
   setRedFighterDetails,
   setBlueFighterDetails,
 }: StatsProps) {
-
-  const [selected, setSelected] = useState<boolean>(false);
-
   useEffect(() => {
-    if(redFighter && !redFighterDetails) {
-      axios.get(`api/get-fighter-details/${redFighter}`).then((response) => {
-        setRedFighterDetails(response.data);
-      }).catch((error) => {
-        console.error("Error fetching red fighter details:", error);
-        setRedFighterDetails(null);
+    if (redFighter) {
+      axios.get(`/api/get-fighter-details/${redFighter}`).then((res) => {
+        setRedFighterDetails(res.data);
       });
     }
-    if(blueFighter && !blueFighterDetails) {
-      axios.get(`api/get-fighter-details/${blueFighter}`).then((response) => {
-        setBlueFighterDetails(response.data);
-      }).catch((error) => {
-        console.error("Error fetching blue fighter details:", error);
-        setBlueFighterDetails(null);
+    if (blueFighter) {
+      axios.get(`/api/get-fighter-details/${blueFighter}`).then((res) => {
+        setBlueFighterDetails(res.data);
       });
     }
   }, [redFighter, blueFighter, setRedFighterDetails, setBlueFighterDetails]);
 
-  useEffect(() => {
-    setSelected(!!(redFighterDetails || blueFighterDetails));
-  }, [redFighterDetails, blueFighterDetails]);
+  const rows: Array<{ key: keyof FighterData; label: string }> = [
+    { key: "dob", label: "DOB" },
+    { key: "stance", label: "Stance" },
+    { key: "height", label: "Height" },
+    { key: "reach", label: "Reach" },
+    { key: "weight", label: "Weight" },
+    { key: "str_acc", label: "Strike Accuracy" },
+    { key: "td_avg", label: "Takedowns Avg" },
+    { key: "sub_avg", label: "Submission Avg" },
+  ];
+
+  const formatRecord = (d?: FighterData | null) => {
+    if (!d) return "—";
+    const { wins, losses, draws } = d;
+    if (wins == null && losses == null && draws == null) return "—";
+    return `(${wins ?? 0}, ${losses ?? 0}, ${draws ?? 0})`;
+  };
 
   return (
-    <div className="bg-black mb-2">
-      <div className="md:p-3">
-        <h2 className="text-2xl font-semibold md:mb-4 text-center bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">
-          VS
+    <div className="grid grid-cols-3 gap-y-2 text-center md:my-2">
+      <div className="col-span-1">
+        <h2 className="md:text-2xl font-semibold text-red-500">
+          {redFighterDetails?.name || "—"}
         </h2>
-
-        {selected ? (
-          <div className="md:space-y-4">
-            <div className="grid grid-cols-3 md:gap-3 md:mb-2">
-              <div className="text-right">
-                <h3 className="md:text-lg text-center font-semibold text-red-500">
-                  {redFighterDetails?.name}
-                </h3>
-                <p className="text-xs text-center text-red-300 italic">
-                  {redFighterDetails?.nickname ? ('"' + redFighterDetails.nickname + '"') : null}
-                </p>
-              </div>
-              <div className="text-center">
-                <h4 className="text-md font-semibold text-white border-b border-gray-600 pb-2">
-                  FIGHTERS
-                </h4>
-              </div>
-              <div className="text-left">
-                <h3 className="md:text-lg text-center font-semibold text-blue-500">
-                  {blueFighterDetails?.name}
-                </h3>
-                <p className="text-xs text-center text-blue-300 italic">
-                  {blueFighterDetails?.nickname ? ('"' + blueFighterDetails.nickname + '"') : null}
-                </p>
-              </div>
-            </div>
-            <div className="space-y-1">
-              <h4 className="text-md font-semibold text-center text-white mb-2 border-b border-gray-600 pb-1">
-                BASIC INFO
-              </h4>
-              <StatRow
-                label="Division"
-                redValue={redFighterDetails?.division}
-                blueValue={blueFighterDetails?.division}
-              />
-              <StatRow
-                label="Record"
-                redValue={redFighterDetails?.win_lose}
-                blueValue={blueFighterDetails?.win_lose}
-              />
-            </div>
-
-            {redFighterDetails && blueFighterDetails && redFighterDetails.stats.length > 0 &&
-              blueFighterDetails.stats.length > 0 ? (
-                <div className="space-y-1">
-                  <h4 className="text-md font-semibold text-center text-white mb-2 border-b border-gray-600 pb-1">
-                    PERFORMANCE STATS
-                  </h4>
-                  {redFighterDetails.stats.map((stat, index) => {
-                    const blueStat = blueFighterDetails.stats.find(
-                      (s) => s.stat === stat.stat
-                    );
-                    return blueStat ? (
-                      <StatRow
-                        key={index}
-                        label={stat.stat}
-                        redValue={stat.num}
-                        blueValue={blueStat.num}
-                      />
-                    ) : null;
-                  })}
-                </div>
-              ) : null}
-          </div>
-        ) : (<>
-        </>
-        )}
+        <h4>
+          <i className="text-red-300 text-xs">
+            &quot;{redFighterDetails?.nick_name || null}&quot;
+          </i>
+        </h4>
       </div>
+      <div className="col-span-1 text-center flex items-center justify-center">
+        <span className="text-xl md:text-3xl text-black dark:text-white">vs</span>
+      </div>
+      <div className="col-span-1">
+        <h2 className="md:text-2xl font-semibold text-blue-500">
+          {blueFighterDetails?.name || "—"}
+        </h2>
+        <h4>
+          <i className="text-blue-300 text-xs">
+            &quot;{blueFighterDetails?.nick_name || null}&quot;
+          </i>
+        </h4>
+      </div>
+
+      <div className="col-span-3 my-1 border-t border-gray-200 dark:border-gray-800" />
+
+      <div className="contents">
+        <div className="col-span-1 text-center pr-2">
+          <span className="text-red-400">
+            {formatRecord(redFighterDetails)}
+          </span>
+        </div>
+        <div className="col-span-1 contents text-black dark:text-white">
+          (W, L, D)
+        </div>
+        <div className="col-span-1 text-center pl-2">
+          <span className="text-blue-400">
+            {formatRecord(blueFighterDetails)}
+          </span>
+        </div>
+      </div>
+
+      {rows.map(({ key, label }) => (
+        <div key={String(key)} className="contents">
+          <div className="col-span-1 text-center pr-2">
+            <span className="text-red-400">
+              {redFighterDetails?.[key]}
+            </span>
+          </div>
+          <div className="col-span-1 contents text-black dark:text-white">
+            {label}
+          </div>
+          <div className="col-span-1 text-center pl-2">
+            <span className="text-blue-400">
+              {blueFighterDetails?.[key]}
+            </span>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
-
-
-const StatRow = ({
-  label,
-  redValue,
-  blueValue,
-}: {
-  label: string;
-  redValue?: string | number;
-  blueValue?: string | number;
-}) => (
-  <div className="grid grid-cols-3 gap-2 py-2 border-b border-gray-700">
-    <div className="text-right text-red-500 font-semibold text-sm">{redValue}</div>
-    <div className="text-center text-white font-semibold text-sm">{label}</div>
-    <div className="text-left text-blue-500 font-semibold text-sm">{blueValue}</div>
-  </div>
-);

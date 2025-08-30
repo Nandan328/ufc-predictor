@@ -2,27 +2,14 @@ import fighters from "@data/fighter_names.json";
 import { Avatar } from "./Avatar";
 import { useEffect, useState } from "react";
 import { SuggestionMenu } from "./SuggestionMenu";
+import { FighterData } from "@/app/lib/types";
 
-interface FighterStat {
-  stat: string;
-  num: string;
-}
-
-interface FighterData {
-  name: string;
-  nickname: string;
-  tags: string[];
-  division: string;
-  win_lose: string;
-  stats: FighterStat[];
-  img?: string;
-}
 
 interface CardProps {
   invert?: boolean;
   setfighter: (fighter: string) => void;
   fighterType: "red" | "blue";
-  fighterImage?: string;
+  fighterImage?: string | null;
   setResult: (result: string | null) => void;
   setFighterDetails: (details: FighterData | null) => void;
 }
@@ -44,6 +31,7 @@ export function Card({ invert = false, setfighter, fighterType, fighterImage, se
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFighterName(e.target.value);
+    setfighter("")
     setFighterDetails(null);
     setClicked(true);
     setResult(null);
@@ -51,7 +39,7 @@ export function Card({ invert = false, setfighter, fighterType, fighterImage, se
 
   return (
     <div
-      className="w-full flex flex-col items-center justify-center p-6 bg-black  m-2"
+      className="w-full flex flex-col items-center justify-center p-6 m-2"
     >
       <Avatar invert={invert} fighterType={fighterType} fighterImage={fighterImage} />
 

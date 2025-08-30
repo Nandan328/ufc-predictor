@@ -1,89 +1,48 @@
-"use client";
+import Image from "next/image";
+import Link from "next/link";
+import coverImage from "@/public/cover-image.png";
 
-import { Button } from "@/components/Button";
-import { Card } from "@/components/Card";
-import { Info } from "@/components/Info";
-import { Result } from "@/components/Result";
-import { Stats } from "@/components/Stats";
-import { useState } from "react";
-
-interface FighterStat {
-  stat: string;
-  num: string;
-}
-
-interface FighterData {
-  name: string;
-  nickname: string;
-  tags: string[];
-  division: string;
-  win_lose: string;
-  stats: FighterStat[];
-  img?: string;
-}
-
-export default function Home() {
-  const [redfighter, setRedFighter] = useState("");
-  const [bluefighter, setBlueFighter] = useState("");
-  const [redFighterDetails, setRedFighterDetails] =
-    useState<FighterData | null>(null);
-  const [blueFighterDetails, setBlueFighterDetails] =
-    useState<FighterData | null>(null);
-  const [result, setResult] = useState<string | null>(null);
-  console.log("Red Fighter:", redfighter);
+export default function Page() {
   return (
-    <>
-      <Info />
-      <div className="min-h-screen bg-black text-white">
-        <header className="text-center pt-3 pb-2">
-          <h1 className="text-2xl md:text-4xl font-bold mb-3 bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">
-            Who will win the Fight?
-          </h1>
-          <p className="text-gray-300 text-xs md:text-sm">
-            Pick two fighters and see who comes out on top!
-          </p>
-        </header>
+    <main className="relative min-h-screen">
+      <Image
+        src={coverImage}
+        alt="UFC octagon cover image"
+        fill
+        className="object-cover"
+      />
 
-        <div className="flex flex-wrap w-full max-w-7xl mx-auto px-3 justify-center">
-          <div className="order-1 w-1/2 md:w-1/3">
-            <Card
-              setfighter={setRedFighter}
-              fighterType="red"
-              fighterImage={redFighterDetails?.img}
-              setResult={setResult}
-              setFighterDetails={setRedFighterDetails}
-            />
-          </div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-white dark:to-black" />
 
-          <div className="order-2 w-1/2 md:w-1/3 md:order-3">
-            <Card
-              invert={true}
-              setfighter={setBlueFighter}
-              fighterType="blue"
-              fighterImage={blueFighterDetails?.img}
-              setResult={setResult}
-              setFighterDetails={setBlueFighterDetails}
-            /> 
-          </div>
-            <div className="order-3 md:order-2 md:w-1/3">
-            <Stats
-              redFighter={redfighter}
-              blueFighter={bluefighter}
-              redFighterDetails={redFighterDetails}
-              blueFighterDetails={blueFighterDetails}
-              setRedFighterDetails={setRedFighterDetails}
-              setBlueFighterDetails={setBlueFighterDetails}
-            />
-          
-          </div>
+      <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-5 text-center">
+        <h1 className="text-3xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-red-500 via-white to-blue-500 bg-clip-text text-transparent">
+          UFC Fight Predictor
+        </h1>
+        <p className="mt-4 max-w-2xl text-base md:text-lg text-zinc-100/90 dark:text-zinc-200">
+          Get precise predictions for UFC fights with ~70% historical accuracy.
+        </p>
+
+        <div className="mt-8 flex flex-col sm:flex-row items-center gap-3">
+          <Link
+            href="/upcoming-events"
+            className="px-5 py-2.5 rounded-full border border-white/70 text-white hover:bg-white/10 backdrop-blur-sm transition"
+          >
+            Upcoming events
+          </Link>
+          <Link
+            href="/predict-winner"
+            className="px-5 py-2.5 rounded-full bg-white text-black font-medium shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition"
+          >
+            Predict winner
+          </Link>
+          <Link
+            href="/previous-events"
+            className="px-5 py-2.5 rounded-full border border-white/70 text-white hover:bg-white/10 backdrop-blur-sm transition"
+          >
+            Previous events
+          </Link>
         </div>
-        <Button
-          redFighter={redfighter}
-          blueFighter={bluefighter}
-          setResult={setResult}
-        />
-        {result && <Result result={result} />}
-      </div>
-    </>
+      </section>
+    </main>
   );
 }

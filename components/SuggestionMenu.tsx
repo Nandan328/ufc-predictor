@@ -14,7 +14,7 @@ export function SuggestionMenu({ suggestions, setFighterName, setFighter, setCli
 
     return (
       <>
-        <div className="mt-9 md:mt-10 p-1.5 rounded absolute z-10 border max-h-50 w-40 md:w-50 overflow-scroll scrollbar-hide bg-black text-white">
+        <div className="mt-9 md:mt-10 p-1.5 rounded absolute z-10 border max-h-40 w-40 md:w-50 overflow-scroll scrollbar-hide">
           <ul>
             {suggestions.map((suggestion, index) => (
               <li
