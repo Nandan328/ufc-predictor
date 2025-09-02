@@ -8,7 +8,7 @@ export async function GET(
 ) {
   const { fighter } = await params;
 
-  const fighter_details = await binarySearchByName(fighterDetails, fighter);
+  const fighter_details = await binarySearchByName(fighterDetails as FighterDetails[], fighter);
 
   if (!fighter_details) {   
     return NextResponse.json({ error: "Fighter not found" }, { status: 404 });

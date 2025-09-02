@@ -14,7 +14,26 @@ export default function Fighter() {
     const getFighter = async () => {
       if (!fighterId) return;
       const found = fighters.find((f) => f.id === fighterId);
-      setFighter(found ?? null);
+
+      if (!found) return;
+
+      setFighter({
+        ...found,
+        wins: Number(found.wins),
+        losses: Number(found.losses),
+        draws: Number(found.draws),
+        height: Number(found.height),
+        weight: Number(found.weight),
+        reach: Number(found.reach),
+        splm: Number(found.splm),
+        str_acc: Number(found.str_acc),
+        sapm: Number(found.sapm),
+        str_def: Number(found.str_def),
+        td_avg: Number(found.td_avg),
+        td_avg_acc: Number(found.td_avg_acc),
+        td_def: Number(found.td_def),
+        sub_avg: Number(found.sub_avg),
+      });
     };
     getFighter();
   }, [fighterId]);
