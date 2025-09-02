@@ -3,12 +3,17 @@ import { useEffect, useState } from "react";
 import { Events } from "../../lib/types";
 import fighters from "@data/data.json";
 import EventCard from "@/components/EventCard";
+import { getPreviousEvents, setPreviousEvents } from "@/app/lib/cache";
 
 export default function PreviousEventsPage() {
   const [events, setEvents] = useState<Events[]>([]);
 
   useEffect(() => {
     const fetchEvents = async () => {
+      const previousEvents = getPreviousEvents();
+      setEvents(previousEvents);
+      if (previousEvents.length > 0) return;
+
       try {
         const response = await fetch("/api/get-previous-events");
         let data = await response.json();
@@ -40,8 +45,8 @@ export default function PreviousEventsPage() {
           }
           return event;
         });
-        console.log(data);
         setEvents(data);
+        setPreviousEvents(data);
       } catch (error) {
         console.error("Error fetching previous events:", error);
       }

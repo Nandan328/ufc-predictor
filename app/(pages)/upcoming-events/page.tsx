@@ -4,12 +4,16 @@ import { useEffect, useState } from "react";
 import { Events } from "../../lib/types";
 import fighters from "@data/data.json";
 import EventCard from "@/components/EventCard";
+import { setUpcomingEvents, getUpcomingEvents } from "@/app/lib/cache";
 
 export default function UpcomingEventsPage() {
   const [events, setEvents] = useState<Events[]>([]);
 
   useEffect(() => {
     const fetchEvents = async () => {
+      const upcomingEvents = getUpcomingEvents();
+      setEvents(upcomingEvents);
+      if (upcomingEvents.length > 0) return;
       try {
         const response = await fetch("/api/get-upcoming-events");
         let data = await response.json();
@@ -42,7 +46,7 @@ export default function UpcomingEventsPage() {
           return event;
         });
         setEvents(data);
-        console.log(data);
+        setUpcomingEvents(data)
       } catch (error) {
         console.error("Error fetching upcoming events:", error);
       }

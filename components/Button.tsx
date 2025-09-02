@@ -25,7 +25,6 @@ export function Button({ redFighter, blueFighter, setResult, find, setFind }: Bu
           blue_fighter: blueFighter,
         })
         .then((res) => {
-          console.log("Prediction response:", res.data);
           if (res.data.pred_winner_name) {
             setResult(res.data.pred_winner_name);
           } else {
